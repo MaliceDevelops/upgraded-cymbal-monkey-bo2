@@ -19,11 +19,12 @@ Under **Assets**, download `Upgraded_Cymbal_Monkey_v<version>.zip`.
 
 1. Close Black Ops 2.
 2. Unzip the download anywhere and double-click **Install.bat**.
-3. A window lists all of my mods, each with a tick box, with the Upgraded Cymbal Monkey already ticked. Tick any others you want (like the [Apothicon Servant](https://github.com/MaliceDevelops/apothicon-servant-bo2)). Only the ticked mods are downloaded, each from its own GitHub page, and they all work together in the same game.
-4. Choose where they go, press **Install** and play:
-   - **Into Zombies Declassified:** launch it like always. The mods work on its maps (in **Private Match**) and on the normal BO2 maps. To play Zombies Declassified without them, press **Turn off** in the installer (**Turn on** puts them back).
-   - **Alongside Zombies Declassified:** your own Zombies Declassified stays exactly as it is, and the Mods menu gets a second entry with the mods. Pick **Zombies Declassified + MaliceDevelops Mods**, then **Private Match** for its maps.
-   - **As a mod of their own** (the only choice without Zombies Declassified): open **Mods**, pick **MaliceDevelops Mods**, then play any map.
+3. Choose where it goes, press **Install** and play:
+   - **Into Zombies Declassified:** launch it like always. It works on its maps (in **Private Match**) and on the normal BO2 maps. To play Zombies Declassified without it, press **Turn off** in the installer (**Turn on** puts it back).
+   - **Alongside Zombies Declassified:** your own Zombies Declassified stays exactly as it is, and the Mods menu gets a second entry with the mod. Pick **Zombies Declassified + MaliceDevelops Mods**, then **Private Match** for its maps.
+   - **On its own** (the only choice without Zombies Declassified): open **Mods**, pick **MaliceDevelops Mods**, then play any map.
+
+This download installs only the Upgraded Cymbal Monkey.
 
 The installer stays on your PC: a **MaliceDevelops BO2 Mods** shortcut on your desktop and in the Start menu opens it again, so you don't need to keep the zip.
 
@@ -31,19 +32,23 @@ Install.bat needs Windows 10 or 11 and an internet connection. To install by han
 
 Windows may warn about running a downloaded `.bat`. Install.bat only downloads my mods from github.com/MaliceDevelops (checking every file's SHA-256) and copies them; you can read `installer\install.ps1` to check.
 
-## Add, remove or update mods
+## Want my other mods too?
 
-Open the **MaliceDevelops BO2 Mods** shortcut (or run Install.bat again): tick a mod to add it, untick it (or press its **Uninstall** button) to remove it. It always installs the newest versions, keeps your settings, and doesn't download again what's already up to date. If a mod acts broken, press **Repair**: it downloads again only what's missing or damaged.
+They all work together in the same game (like the [Apothicon Servant](https://github.com/MaliceDevelops/apothicon-servant-bo2)). Get the **[MaliceDevelops BO2 Mods installer](https://github.com/MaliceDevelops/bo2-mods-installer/releases/latest)**: tick the mods you want and it downloads each one from its own page.
+
+## Update, repair or move it
+
+Open the **MaliceDevelops BO2 Mods** shortcut (or run Install.bat again). It always installs the newest version, keeps your settings, and doesn't download again what's already up to date. If it acts broken, press **Repair**: it downloads again only what's missing or damaged.
 
 ## Uninstall
 
-Close BO2 and press **Uninstall all** in the installer (or double-click **Uninstall.bat**). It removes all of my mods, the shortcuts and the installer kept on your PC, and puts back anything it set aside.
+Close BO2 and double-click **Uninstall.bat** (or press **Uninstall** in the installer). It removes the Upgraded Cymbal Monkey; any other mods of mine stay. With nothing else left, it also removes the shortcuts and the installer kept on your PC, and puts back anything it set aside.
 
 ## Good to know
 
-- **Co-op:** everyone in the game needs the same mods ticked.
+- **Co-op:** everyone in the game needs the same mods installed.
 - **Other mods:** script mods like B2OP work fine alongside. Zombies Declassified has two free slots for mods that bring their own fastfile, and all of my mods together use one, so another fastfile mod can use the other.
-- **Only what you tick:** a mod you don't tick isn't downloaded or installed. All my mods share one small file (a few MB); each mod's textures, scripts and sounds are separate.
+- **Small:** all my mods share one small file (a few MB); each mod's textures, scripts and sounds are separate, and only installed mods' files are on your PC. To combine mods, use the [installer](https://github.com/MaliceDevelops/bo2-mods-installer/releases/latest).
 - **After a Zombies Declassified update or install:** if upgrading monkeys stops working, open the installer and press **Repair**.
 - **Who's Who and Tombstone** give back normal monkeys, not upgraded ones.
 
