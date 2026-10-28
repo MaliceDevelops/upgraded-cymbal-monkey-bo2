@@ -21,7 +21,8 @@ Under **Assets**, download `Upgraded_Cymbal_Monkey_v<version>.zip`.
 2. Unzip the download anywhere and double-click **Install.bat**.
 3. A window lists all of my mods, each with a tick box, with the Upgraded Cymbal Monkey already ticked. Tick any others you want (like the [Apothicon Servant](https://github.com/MaliceDevelops/apothicon-servant-bo2)). Only the ticked mods are downloaded, each from its own GitHub page, and they all work together in the same game.
 4. Choose where they go, press **Install** and play:
-   - **Into Zombies Declassified:** launch it like always. The mods work on its maps and on the normal BO2 maps. To play Zombies Declassified without them, press **Turn off** in the installer (**Turn on** puts them back).
+   - **Into Zombies Declassified:** launch it like always. The mods work on its maps (in **Private Match**) and on the normal BO2 maps. To play Zombies Declassified without them, press **Turn off** in the installer (**Turn on** puts them back).
+   - **Into a copy of Zombies Declassified:** your own Zombies Declassified stays exactly as it is. Open **Mods**, pick **Zombies Declassified + MaliceDevelops Mods**, then **Private Match** for its maps.
    - **As a mod of their own** (the only choice without Zombies Declassified): open **Mods**, pick **MaliceDevelops Mods**, then play any map.
 
 The installer stays on your PC: a **MaliceDevelops BO2 Mods** shortcut on your desktop and in the Start menu opens it again, so you don't need to keep the zip.
