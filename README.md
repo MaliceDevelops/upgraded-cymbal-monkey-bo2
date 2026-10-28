@@ -32,6 +32,8 @@ This download installs only the Upgraded Cymbal Monkey. Its window:
 
 <img src="images/installer-window.png" width="620" alt="The Upgraded Cymbal Monkey's installer window">
 
+Everything happens in that window: it shows the progress, says where the mod is and how to play it, and explains every part - hover over anything, or press **Help**.
+
 The installer stays on your PC: a **MaliceDevelops BO2 Mods** shortcut on your desktop and in the Start menu opens it again, so you don't need to keep the zip.
 
 Install.bat needs Windows 10 or 11 and an internet connection. To install by hand instead, follow `README.txt` in the download.
