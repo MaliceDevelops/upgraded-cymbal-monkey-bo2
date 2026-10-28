@@ -36,7 +36,7 @@ Everything happens in that window: it shows the progress, says where the mod is 
 
 The installer stays on your PC: a **MaliceDevelops BO2 Mods** shortcut on your desktop and in the Start menu opens it again, so you don't need to keep the zip.
 
-Install.bat needs Windows 10 or 11 and an internet connection. To install by hand instead, follow `README.txt` in the download.
+Install.bat needs Windows 10 or 11 and an internet connection. To install by hand instead, follow `README.txt` in the download. **On Linux** (Steam Deck, Lutris, Bottles, Heroic, Wine): get the [MaliceDevelops BO2 Mods installer](https://github.com/MaliceDevelops/bo2-mods-installer#on-linux-steam-deck-lutris-bottles-heroic-wine) and run `bash Install.sh` - it has every one of my mods.
 
 Windows may warn about running a downloaded `.bat`. Install.bat only downloads my mods from github.com/MaliceDevelops (checking every file's SHA-256) and copies them; you can read `installer\install.ps1` to check.
 
