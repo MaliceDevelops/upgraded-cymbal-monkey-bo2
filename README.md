@@ -48,7 +48,7 @@ Open the **MaliceDevelops BO2 Mods** shortcut (or run Install.bat again). It alw
 
 ## Uninstall
 
-Close BO2 and double-click **Uninstall.bat** (or press **Uninstall** in the installer). It removes the Upgraded Cymbal Monkey; any other mods of mine stay. With nothing else left, it also removes the shortcuts and the installer kept on your PC, and puts back anything it set aside.
+Close BO2 and double-click **Uninstall.bat** (or press **Uninstall** in the installer). It removes the Upgraded Cymbal Monkey; any other mods of mine stay. It also puts back anything it set aside. The installer and its **MaliceDevelops BO2 Mods** shortcut stay, so you can install again; to remove them too, delete the shortcut and the folder `%LOCALAPPDATA%\MaliceDevelops`.
 
 ## Good to know
 
