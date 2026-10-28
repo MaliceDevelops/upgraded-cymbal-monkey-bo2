@@ -23,6 +23,15 @@ Under **Assets**, download `Upgraded_Cymbal_Monkey_v<version>.zip`.
    - **With Zombies Declassified:** launch it like always. It works on its maps and on the normal BO2 maps.
    - **Without it:** start Zombies, open **Mods**, pick **Upgraded Cymbal Monkey**, then play any map.
 
+### Merge with the Apothicon Servant
+
+Have the [Apothicon Servant](https://github.com/MaliceDevelops/apothicon-servant-bo2) installed too? Install.bat asks what you want:
+
+1. **Merge them** (just press Enter): both work in the same game. With Zombies Declassified, both go into it. Without it, they become one mod in the Mods menu: **Apothicon Servant + Upgraded Cymbal Monkey**.
+2. **Keep them apart:** each stays its own mod. Without Zombies Declassified, you pick one or the other in the Mods menu.
+
+The download carries the Apothicon Servant too, so merging also brings it up to that version, and its settings are kept. Uninstalling one of a merged pair leaves the other working.
+
 Install.bat needs Windows 10 or 11. To install by hand instead, follow `README.txt` in the download.
 
 Windows may warn about running a downloaded `.bat`. Install.bat only copies the mod's files; you can read `installer\install.ps1` to check.
@@ -40,7 +49,7 @@ Close BO2 and double-click **Uninstall.bat**. It removes exactly what Install.ba
 - **Co-op:** everyone in the game needs the mod installed.
 - **Other mods:** script mods like B2OP work fine alongside it.
 - **One fastfile mod in ZD:** Zombies Declassified only has room for **one** mod with its own fastfile (`mods\dlc5\mod_patch.ff`). If you already have one, the installer sets it aside, and Uninstall.bat puts it back. Only one of the two works at a time.
-- **With the [Apothicon Servant](https://github.com/MaliceDevelops/apothicon-servant-bo2):** it needs that slot too, so the two can't both be in Zombies Declassified. If the Apothicon Servant is already there, Install.bat offers to install the monkey as its own mod instead (Mods menu, normal BO2 maps).
+- **The Apothicon Servant** needs that slot too. Merged (see above), both fit.
 - **Installed another fastfile mod later:** maps can fail to load. Run this mod's Uninstall.bat, or its Install.bat to switch back to it.
 - **After a Zombies Declassified update or install:** if upgrading monkeys stops working, run Install.bat again.
 - **Who's Who and Tombstone** give back normal monkeys, not upgraded ones.
