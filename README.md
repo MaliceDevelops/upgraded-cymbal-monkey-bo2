@@ -19,38 +19,28 @@ Under **Assets**, download `Upgraded_Cymbal_Monkey_v<version>.zip`.
 
 1. Close Black Ops 2.
 2. Unzip the download anywhere and double-click **Install.bat**.
-3. Play. The installer checks for Zombies Declassified by itself:
-   - **With Zombies Declassified:** launch it like always. It works on its maps and on the normal BO2 maps.
-   - **Without it:** start Zombies, open **Mods**, pick **Upgraded Cymbal Monkey**, then play any map.
+3. A window lists all of my mods, each with a tick box, with the Upgraded Cymbal Monkey already ticked. Tick any others you want (like the [Apothicon Servant](https://github.com/MaliceDevelops/apothicon-servant-bo2)) and press **Install**. Only the ticked mods are downloaded, each from its own GitHub page, and they all work together in the same game.
+4. Play:
+   - **With Zombies Declassified:** launch it like always. The mods work on its maps and on the normal BO2 maps.
+   - **Without it:** start Zombies, open **Mods**, pick **MaliceDevelops Mods**, then play any map.
 
-### Merge with the Apothicon Servant
+Install.bat needs Windows 10 or 11 and an internet connection. To install by hand instead, follow `README.txt` in the download.
 
-Have the [Apothicon Servant](https://github.com/MaliceDevelops/apothicon-servant-bo2) installed too? Install.bat asks what you want:
+Windows may warn about running a downloaded `.bat`. Install.bat only downloads my mods from github.com/MaliceDevelops (checking every file's SHA-256) and copies them; you can read `installer\install.ps1` to check.
 
-1. **Merge them** (just press Enter): both work in the same game. With Zombies Declassified, both go into it. Without it, they become one mod in the Mods menu: **Apothicon Servant + Upgraded Cymbal Monkey**.
-2. **Keep them apart:** each stays its own mod. Without Zombies Declassified, you pick one or the other in the Mods menu.
+## Add, remove or update mods
 
-The download carries the Apothicon Servant too, so merging also brings it up to that version, and its settings are kept. Uninstalling one of a merged pair leaves the other working.
-
-Install.bat needs Windows 10 or 11. To install by hand instead, follow `README.txt` in the download.
-
-Windows may warn about running a downloaded `.bat`. Install.bat only copies the mod's files; you can read `installer\install.ps1` to check.
-
-## Update
-
-Download the newest version from the link above, close BO2 and run its **Install.bat**. It replaces the old version.
+Run **Install.bat** again: tick a mod to add it, untick it to remove it. It always installs the newest versions and keeps your settings.
 
 ## Uninstall
 
-Close BO2 and double-click **Uninstall.bat**. It removes exactly what Install.bat added and puts back anything it set aside.
+Close BO2 and double-click **Uninstall.bat**. It removes all of my mods and puts back anything it set aside.
 
 ## Good to know
 
-- **Co-op:** everyone in the game needs the mod installed.
-- **Other mods:** script mods like B2OP work fine alongside it.
-- **One fastfile mod in ZD:** Zombies Declassified only has room for **one** mod with its own fastfile (`mods\dlc5\mod_patch.ff`). If you already have one, the installer sets it aside, and Uninstall.bat puts it back. Only one of the two works at a time.
-- **The Apothicon Servant** needs that slot too. Merged (see above), both fit.
-- **Installed another fastfile mod later:** maps can fail to load. Run this mod's Uninstall.bat, or its Install.bat to switch back to it.
+- **Co-op:** everyone in the game needs the same mods ticked.
+- **Other mods:** script mods like B2OP work fine alongside. Zombies Declassified has two free slots for mods that bring their own fastfile, and all of my mods together use one, so another fastfile mod can use the other.
+- **Only what you tick:** a mod you don't tick isn't downloaded or installed. All my mods share one small file (a few MB); each mod's textures, scripts and sounds are separate.
 - **After a Zombies Declassified update or install:** if upgrading monkeys stops working, run Install.bat again.
 - **Who's Who and Tombstone** give back normal monkeys, not upgraded ones.
 

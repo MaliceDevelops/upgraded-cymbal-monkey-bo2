@@ -4,4 +4,4 @@
 
 First public release.
 
-- If you have the [Apothicon Servant](https://github.com/MaliceDevelops/apothicon-servant-bo2) too, Install.bat offers to merge the two so both work in the same game, with or without Zombies Declassified. Or keep them apart.
+- Installs with my mod installer: Install.bat opens a window with a tick box for each of my mods, so you can add the [Apothicon Servant](https://github.com/MaliceDevelops/apothicon-servant-bo2) too. Only the ticked ones are downloaded, and they all work together in the same game, with or without Zombies Declassified.
