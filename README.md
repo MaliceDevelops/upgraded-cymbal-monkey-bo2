@@ -60,6 +60,6 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## Credits
 
-Made by **MaliceKy**. Built with [OpenAssetTools](https://github.com/Laupetin/OpenAssetTools) and [Plutonium](https://plutonium.pw).
+Made by **MaliceDevelops**. Built with [OpenAssetTools](https://github.com/Laupetin/OpenAssetTools) and [Plutonium](https://plutonium.pw).
 
 The upgraded Cymbal Monkey's effects, song, sounds and voice lines are © Activision / Treyarch, from Call of Duty: Black Ops III. This is a free fan mod, not affiliated with or endorsed by Activision. Don't sell it.
