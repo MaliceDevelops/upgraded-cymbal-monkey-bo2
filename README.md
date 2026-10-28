@@ -6,6 +6,10 @@ Black Ops 3's Pack-a-Punched Cymbal Monkey from Gorod Krovi, in Black Ops 2 Zomb
 
 Under **Assets**, download `Upgraded_Cymbal_Monkey_v<version>.zip`.
 
+| Pack-a-Punch your monkeys | The upgraded monkey |
+| --- | --- |
+| ![Holding the monkeys out at Pack-a-Punch, the knuckle crack, and taking the upgraded ones](images/pack-a-punch.gif) | ![An upgraded monkey thrown: zombies pulled in by the bass pulse, then the bigger explosion](images/upgraded-monkey.gif) |
+
 ## How it works
 
 - **Pack-a-Punch your monkeys.** At a working Pack-a-Punch, hold your Cymbal Monkeys out (hold the button you throw them with), look at the machine and press Use. It costs 5000 (1000 in a Bonfire Sale). The machine plays its show like it does for a gun, then you take **4 upgraded monkeys**.
