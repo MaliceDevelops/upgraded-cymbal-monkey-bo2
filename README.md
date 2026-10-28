@@ -24,7 +24,9 @@ Under **Assets**, download `Upgraded_Cymbal_Monkey_v<version>.zip`.
    - **Alongside Zombies Declassified:** your own Zombies Declassified stays exactly as it is, and the Mods menu gets a second entry with the mod. Pick **Zombies Declassified + MaliceDevelops Mods**, then **Private Match** for its maps.
    - **On its own** (the only choice without Zombies Declassified): open **Mods**, pick **MaliceDevelops Mods**, then play any map.
 
-This download installs only the Upgraded Cymbal Monkey.
+This download installs only the Upgraded Cymbal Monkey. Its window:
+
+<img src="images/installer-window.png" width="620" alt="The Upgraded Cymbal Monkey's installer window">
 
 The installer stays on your PC: a **MaliceDevelops BO2 Mods** shortcut on your desktop and in the Start menu opens it again, so you don't need to keep the zip.
 
